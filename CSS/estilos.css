@@ -1,0 +1,11 @@
+/*CSS se encarga de:
+-tamaños y tipos de fuente
+-colores
+-espacios
+-margenes
+-adaptar diseños a distintos dispositivos
+-animaciones
+-etc.*/
+h1{
+    text-align: center;
+}
