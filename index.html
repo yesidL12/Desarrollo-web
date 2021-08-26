@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseño y desarrollo web freelancer</title>
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="CSS/normalize.css" as="estilos">
+    <link rel="preload" href="CSS/estilos.css" as="estilos">
     <link href="CSS/estilos.css" rel="stylesheet">
 </head>
     <!--Para casos de DUDAS
@@ -19,11 +23,13 @@
     form=Sirve para hacer formularios
     legend=Se utiliza para describir el formulario
     label=es la etiqueta de los campos del formulario
-    input=Es el campo donde el usuario escribe lo que el label le solicita-->
+    input=Es el campo donde el usuario escribe lo que el label le solicita
+    para hacer que el sitio web sea más rapido, se puedo utilizar "preload"-->
 <body>
     <!--Estructurar el contenido es agrupar el codigo-->
     <header>
-        <h1>Yesid Londoño Freelancer</h1>
+        <h1 class="titulo">Yesid Londoño 
+        <span>Freelancer</span></h1>
     </header>
 
     <nav>
@@ -34,7 +40,7 @@
     </nav>
 
     <section>
-        <h2>Diseño y desarrollo web freelancer</h2>
+        <h2 class="titulo">Diseño y desarrollo web<span>freelancer</span></h2>
         <!--para agregar iconos podemos usar la pagina tabler icons o hero icons-->
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
