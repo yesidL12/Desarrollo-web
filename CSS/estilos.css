@@ -43,3 +43,44 @@ body{
 .titulo span{
     font-size: 2rem;
 }
+/*centra el contenido de la barra de navegacion*/
+.contenedor{
+    width: 120rem;
+    margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    /*margin: 0 auto*/
+}
+/*diseño de la barra de navegacion*/
+ .nav-bg{
+    background-color: var(--secundario);
+ }
+ /*grosor de la barra de navegacion*/
+ .navegacion-principal{
+     /*distribuye los items de la barra de navegacion*/
+     display: flex;
+     justify-content: space-between;
+ }
+ /*fondo de los items de la barra de navegacion*/
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;   
+}
+/*hover es lo que hace que cambie de color un enlace al pararse en el*/
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color:var(--oscuro)
+}
+/*display: block= Significa que el elemento se colocará
+uno debajo del otro sin importar su tamaño o contenido.
+
+display: inline=Significa que el elemto se posicionara a la
+derecha una vez que haya tomado todo el espacio que requiere.
+
+Flexbox= Modelo unidimensional para crear layaout. Se puede colocar o
+distribuir elementos en una sola direccion: fila(row)(aplicado por default)
+o columna(column)*/
