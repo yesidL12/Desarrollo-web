@@ -6,6 +6,40 @@
 -adaptar diseños a distintos dispositivos
 -animaciones
 -etc.*/
-h1{
+
+/*custom properties*/
+
+:root{
+    --blanco:#ffffff;
+    --oscuro:#212121;
+    --primario:#ffc107;
+    --secundario:#0097a7;
+    --gris:#757575;
+}
+
+/*optimiza los rem*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+      /*cambio de fuente - google font*/
+      font-family: 'Krub', sans-serif;
+}
+/*fin de la optimazion de rem*/
+
+/*centramos el header*/
+.titulo{
     text-align: center;
+    font-size: 3.8rem; 
+}
+/* Hay diferentes metodos medidas
+-px
+-rem= 1=10px
+-em=*/
+
+/*hacemos el "freelancer" mas pequeño que el resto"*/
+.titulo span{
+    font-size: 2rem;
 }
