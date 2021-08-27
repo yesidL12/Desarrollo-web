@@ -187,3 +187,42 @@ background-color: var(--blanco);
 padding: 2rem;
 border-radius: 1rem;
 }
+/*alineacion de los servicios con grid*/
+@media (min-width: 768px) { 
+    .servicios {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1rem;
+    }
+}
+/*flexbox = Para la alineacion de los elementos que estarán dentro de contenedores.
+Grid = para definir el Layout del sitio web, como pueden ser las columnas o
+contenedores de elementos*/
+
+/*redondeado de los iconos y todo lo relacionado a los iconos*/
+/*centra los circulos y su contenido*/
+.servicio{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.servicio h3{
+color:var(--secundario);
+font-weight: normal;
+}
+/*hace un interlineado*/
+.servicio p{
+    line-height: 2;
+    text-align: center;
+}
+/*crea un circulo perfecto*/
+.servicio .iconos{
+height: 15rem;
+width: 14rem;
+background-color: var(--primario);
+border-radius: 50%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
