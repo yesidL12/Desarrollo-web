@@ -225,4 +225,24 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 }
-
+/*seccion de contacto*/
+.formulario{
+    background-color: var(--gris);
+    /*utiliza el valor mas pequeño*/
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.formulario fieldset{
+    border:none;
+}
+/*modifica el texto del encabezado del formulario*/
+.formulario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color:var(--primario);
+}
